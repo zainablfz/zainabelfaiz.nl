@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f0ef">
+  <meta name="description" id="page-description" content="Zainab el Faiz — student Communication &amp; Multimedia Design met een achtergrond in frontend development en interesse in UX/UI design.">
+  <title>Zainab el Faiz — Digital design &amp; frontend</title>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="page-progress" aria-hidden="true"><span></span></div>
+  <div class="loading-screen" id="loading-screen" hidden aria-hidden="true">
+    <div class="loader-content">
+      <p class="loader-name">Zainab el Faiz</p>
+      <p class="loader-subtitle" data-i18n="loader-subtitle">Social media &amp; creative direction</p>
+      <p class="loader-percentage" id="loader-progress-value">0%</p>
+      <div class="loader-bar"><span></span></div>
+    </div>
+  </div>
+  <div class="flora-overlay" aria-hidden="true">
+    <svg class="flower flower-left" viewBox="0 0 180 260"><g fill="none" stroke="currentColor" stroke-width="1.5"><path d="M82 260c2-62 0-104-14-151M80 180c-28-27-48-54-41-78 7-25 37-29 50-6 13-27 49-19 49 8 0 24-30 56-58 75M78 177c-6-47-19-86-8-111m16 101c12-39 38-68 37-92M70 148c-27-18-35-40-28-54m62 60c21-18 29-35 29-52M78 207c-19-19-34-30-47-32 13 18 28 31 47 43m6 2c26-32 44-57 57-68-4 22-19 45-53 76"/></g></svg>
+    <svg class="flower flower-right" viewBox="0 0 180 260"><g fill="none" stroke="currentColor" stroke-width="1.5"><path d="M96 260c-7-58-21-106-42-151m41 149c11-54 12-91 3-131m-9-8c-26-7-42-23-37-43 4-15 22-20 34-9-1-19 17-29 30-18 14 12 10 35-2 54-10 15-24 21-25 20m-2-1c16-16 24-34 19-57m-33 54c-18-13-29-25-27-39m46 44c17-10 29-20 33-33m-43 90c29-17 52-30 66-32-12 18-31 32-64 40m-14 4c-24-20-45-30-61-31 12 19 33 32 66 43"/></g></svg>
+  </div>
+  <a class="skip-link" href="#main" data-i18n="skip-link">Ga naar de inhoud</a>
+  <header class="site-header">
+    <a class="wordmark" href="#top" aria-label="Zainab el Faiz, naar boven">ZAINAB EL FAIZ</a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span class="sr-only" data-i18n="menu-open">Menu openen</span><span></span><span></span></button>
+    <nav id="site-nav" class="site-nav" aria-label="Hoofdnavigatie" data-i18n-aria="nav-label">
+      <a href="#work" data-i18n="nav-work">Werk</a><a href="#skills" data-i18n="nav-about">Over mij</a><a href="#offers" data-i18n="nav-skills">Skills</a><a href="#contact" data-i18n="nav-contact">Contact</a>
+    </nav>
+    <div class="language-switch" role="group" aria-label="Taalkeuze" data-i18n-aria="language-label">
+      <button type="button" class="language-option is-active" lang="nl" aria-pressed="true" data-language-switch="nl">NL</button>
+      <span aria-hidden="true">|</span>
+      <button type="button" class="language-option" lang="en" aria-pressed="false" data-language-switch="en">ENG</button>
+    </div>
+    <button class="theme-toggle" id="theme-toggle" type="button" aria-pressed="false" aria-label="Donkere modus inschakelen">
+      <svg class="theme-icon moon-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.2 15.1A8.3 8.3 0 0 1 8.9 3.8 8.5 8.5 0 1 0 20.2 15.1Z"/></svg>
+      <svg class="theme-icon sun-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/></svg>
+    </button>
+  </header>
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <h1 id="hero-title"><span class="hero-name">Zainab el Faiz</span></h1>
+        <p class="eyebrow student-title" data-i18n="hero-eyebrow">Student Communication &amp; Multimedia Design</p>
+        <p class="hero-subtitle" data-i18n-html="hero-subtitle">Ik combineer techniek en creativiteit om digitale ervaringen te ontwerpen<br class="desktop-break"> en bouwen die prettig en toegankelijk zijn voor iedereen.</p>
+        <a class="button button-dark" href="#work" data-i18n="hero-cta">Bekijk mijn projecten</a>
+      </div>
+      <a class="scroll-cue" href="#work" aria-label="Scroll naar mijn projecten" data-i18n-aria="scroll-label"><span data-i18n="scroll-cue">Scroll om te ontdekken</span><svg class="scroll-arrow" viewBox="0 0 24 30" aria-hidden="true"><path d="m5 5 7 7 7-7M5 14l7 7 7-7"/></svg></a>
+    </section>
+
+    <section class="work section-panel" id="work" aria-labelledby="work-title">
+      <h2 id="work-title" data-i18n="projects-title">Mijn projecten</h2>
+      <div class="filters" role="group" aria-label="Filter projecten" data-i18n-aria="filter-label">
+        <button class="filter active" type="button" aria-pressed="true" data-filter="all" data-i18n="filter-all">Alles</button>
+        <button class="filter" type="button" aria-pressed="false" data-filter="fdnd" data-i18n="filter-fdnd">FDND</button>
+        <button class="filter" type="button" aria-pressed="false" data-filter="cmd" data-i18n="filter-cmd">CMD</button>
+      </div>
+      <div class="carousel-shell">
+        <button class="carousel-button previous" type="button" aria-label="Vorig project" data-i18n-aria="previous-project">‹</button>
+        <div class="project-track" aria-label="Projecten" data-i18n-aria="projects-label" tabindex="0">
+          <article class="project-card" data-program="cmd"><img class="project-image--contain" src="assets/buurtcampus-responsive.png" alt="Responsive website voor De Buurtcampus op laptop en telefoons" data-i18n-alt="alt-campus" loading="lazy"><h3>De Buurtcampus</h3><div class="tags"><span class="tag dark" data-i18n="tag-responsive">Responsive design</span><span class="tag">HTML</span><span class="tag">CSS</span></div><button class="project-trigger" type="button" aria-haspopup="dialog" aria-label="Meer informatie over De Buurtcampus" data-project-id="campus">Meer informatie</button></article>
+          <article class="project-card" data-program="cmd"><img class="project-image--contain" src="assets/gazelle-ebike.png" alt="Gazelle e-bike website op laptop en telefoon" data-i18n-alt="alt-gazelle" loading="lazy"><h3 data-i18n="project-gazelle">Gazelle e-bike</h3><div class="tags"><span class="tag dark">UI/UX</span><span class="tag" data-i18n="tag-responsive">Responsive design</span></div><button class="project-trigger" type="button" aria-haspopup="dialog" aria-label="Meer informatie over het Gazelle-project" data-project-id="gazelle">Meer informatie</button></article>
+          <article class="project-card" data-program="cmd"><img class="project-image--contain" src="assets/wakely-routines.png" alt="Wakely routine- en wekkerapp op drie telefoons" data-i18n-alt="alt-wakely" loading="lazy"><h3>Wakely</h3><div class="tags"><span class="tag dark">UI/UX</span><span class="tag" data-i18n="tag-prototype">Prototyping</span></div><button class="project-trigger" type="button" aria-haspopup="dialog" aria-label="Meer informatie over Wakely" data-project-id="wakely">Meer informatie</button></article>
+          <article class="project-card" data-program="cmd"><img class="project-image--contain" src="assets/meal-planner.png" alt="Maaltijdplanner en boodschappenlijst-app op telefoons" data-i18n-alt="alt-meal" loading="lazy"><h3 data-i18n="project-meal">Minor Behavior Design</h3><div class="tags"><span class="tag dark">Figma</span><span class="tag" data-i18n="tag-usability">Usability</span></div><button class="project-trigger" type="button" aria-haspopup="dialog" aria-label="Meer informatie over dit Behavior Design-project" data-project-id="meal">Meer informatie</button></article>
+          <article class="project-card" data-program="fdnd"><img class="project-image--contain" src="assets/wogo-cocktail-walks.png" alt="Responsive WOGO cocktail walks website op telefoon en tablet" data-i18n-alt="alt-wogo" loading="lazy"><h3>WOGO — Explore your city</h3><div class="tags"><span class="tag dark" data-i18n="tag-responsive">Responsive design</span><span class="tag">Figma</span></div><button class="project-trigger" type="button" aria-haspopup="dialog" aria-label="Meer informatie over WOGO — Explore your city" data-project-id="wogo">Meer informatie</button></article>
+          <article class="project-card" data-program="fdnd"><img class="project-image--contain" src="assets/drop-and-heal.png" alt="Drop &amp; Heal wellness website op laptop en telefoon" data-i18n-alt="alt-drop" loading="lazy"><h3>Drop &amp; Heal</h3><div class="tags"><span class="tag dark">UI/UX</span><span class="tag" data-i18n="tag-wireframing">Wireframing</span></div><button class="project-trigger" type="button" aria-haspopup="dialog" aria-label="Meer informatie over Drop &amp; Heal" data-project-id="drop">Meer informatie</button></article>
+          <article class="project-card" data-program="fdnd"><img class="project-image--contain" src="assets/merlins-potions.png" alt="Merlin's Book of Potions game concept op laptops" data-i18n-alt="alt-merlin" loading="lazy"><h3>Merlin's Book of Potions</h3><div class="tags"><span class="tag dark" data-i18n="tag-prototype">Prototyping</span><span class="tag">JavaScript</span></div><button class="project-trigger" type="button" aria-haspopup="dialog" aria-label="Meer informatie over Merlin's Book of Potions" data-project-id="merlin">Meer informatie</button></article>
+          <article class="project-card" data-program="fdnd"><img class="project-image--contain" src="assets/grrr-blog.png" alt="GRRR creatief bureau blog op laptop en telefoons" data-i18n-alt="alt-grrr" loading="lazy"><h3 data-i18n="project-grrr">GRRR tech blog</h3><div class="tags"><span class="tag dark">HTML</span><span class="tag">CSS</span><span class="tag">Responsive design</span></div><button class="project-trigger" type="button" aria-haspopup="dialog" aria-label="Meer informatie over GRRR tech blog" data-project-id="grrr">Meer informatie</button></article>
+          <article class="project-card" data-program="cmd"><img class="project-image--contain" src="assets/research-cycling.png" alt="Onderzoeksboards over fietsen en schoolstress" data-i18n-alt="alt-research" loading="lazy"><h3 data-i18n="project-research">CMD: onderzoek naar slaap &amp; fietsen</h3><div class="tags"><span class="tag dark" data-i18n="tag-persona">Persona's</span><span class="tag" data-i18n="tag-journey">User journey</span><span class="tag" data-i18n="tag-affinity">Affinity mapping</span></div><button class="project-trigger" type="button" aria-haspopup="dialog" aria-label="Meer informatie over het CMD-onderzoek" data-project-id="research">Meer informatie</button></article>
+        </div>
+        <button class="carousel-button next" type="button" aria-label="Volgend project" data-i18n-aria="next-project">›</button>
+      </div>
+      <p class="project-empty" hidden data-i18n="empty-cmd">Er staan nog geen CMD-projecten in dit overzicht.</p>
+      <div class="carousel-progress" aria-hidden="true"><span></span></div>
+      <p class="sr-only" id="filter-status" aria-live="polite"></p>
+    </section>
+
+    <section class="skills content-width" id="skills" aria-labelledby="skills-title">
+      <div class="skills-intro"><h2 id="skills-title" data-i18n="about-title">Over mij</h2><p data-i18n="about-copy">Ik combineer mijn achtergrond in front-end development met een gebruikersgerichte blik. Ik kan een vraagstuk verkennen, inzichten vertalen naar een concept en dat uitwerken tot een prototype of responsive interface. Tijdens dat proces let ik op duidelijkheid, toegankelijkheid en kwaliteit. Ik zoek een stage waarin ik mijn ideeën in de praktijk kan brengen en verder kan groeien.</p><a class="button button-dark" href="#offers" data-i18n="about-cta">Ontdek mijn skills</a></div>
+      <svg class="branch" viewBox="0 0 180 220" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="2"><path d="M90 220c-2-58-17-105-43-148m43 148c13-61 27-114 52-158M79 159c-26-30-44-44-58-48 8 23 27 43 58 57m1-38C62 102 51 82 50 65c20 9 34 24 43 47m21 47c15-28 34-44 52-52-5 23-23 43-52 61m14-84c13-20 24-34 39-41-2 21-14 39-38 54m-68-7c-7-23-9-41-6-55 15 14 23 30 27 53m46 24c-2-27 3-48 13-62 9 22 9 41-3 66"/></g></svg>
+      <div class="accordion">
+        <details open><summary data-i18n="skill-frontend-title">Frontend development</summary><p data-i18n="skill-frontend-copy">Ik werk met HTML, CSS, JavaScript en frameworks als SvelteKit, Astro en React. Ik bouw responsive interfaces met aandacht voor performance, progressive enhancement en toegankelijkheid.</p></details>
+        <details><summary data-i18n="skill-ux-title">UX research en design</summary><p data-i18n="skill-ux-copy">Ik onderzoek gebruikersbehoeften en vertaal inzichten naar wireframes, prototypes en design systems. Ik werk met Figma en Adobe en houd responsive gebruik en toegankelijkheid in beeld.</p></details>
+        <details><summary data-i18n="skill-access-title">Toegankelijkheid en performance</summary><p data-i18n="skill-access-copy">Ik heb interesse in toegankelijke, gebruiksvriendelijke en snelle digitale producten. Daarbij blijf ik nieuwsgierig naar nieuwe technieken en manieren om mijn werk te verbeteren.</p></details>
+        <details><summary data-i18n="education-title">Opleiding</summary><div data-i18n-html="education-copy"><p><strong>Communication &amp; Multimedia Design</strong><br>Hogeschool van Amsterdam · 2025–heden</p><p><strong>AD Frontend Design &amp; Development</strong><br>Hogeschool van Amsterdam · 2023–2025</p><p><strong>Lumion</strong><br>Havo, Economie &amp; Maatschappij · 2016–2021</p></div></details>
+      </div>
+    </section>
+
+    <section class="offers content-width" id="offers" aria-labelledby="offers-title">
+      <h2 id="offers-title" data-i18n="skills-title">Wat ik meebreng</h2><p class="offers-lead" data-i18n="skills-lead">Tools, technieken en kwaliteiten die ik inzet</p>
+      <div class="offer-grid">
+        <article class="offer-card"><span class="offer-icon" aria-hidden="true">&lt;/&gt;</span><h3 data-i18n="offer-frontend-title">Development stack</h3><p data-i18n="offer-frontend-copy">HTML, CSS, JavaScript en frameworks als SvelteKit, Astro en React. Ik let op responsive design, progressive enhancement en performance.</p></article>
+        <article class="offer-card"><span class="offer-icon" aria-hidden="true">◇</span><h3 data-i18n="offer-ux-title">UX &amp; design</h3><p data-i18n="offer-ux-copy">User research, Figma, Adobe, wireframing, prototyping en design systems. Ik ontwerp empathisch vanuit gebruikersbehoeften.</p></article>
+        <article class="offer-card"><span class="offer-icon" aria-hidden="true">♡</span><h3 data-i18n="offer-team-title">Kwaliteit &amp; samenwerking</h3><p data-i18n="offer-team-copy">Toegankelijkheid, leergierigheid, probleemoplossend vermogen, communicatie en oog voor detail kenmerken mijn aanpak.</p></article>
+      </div>
+      <h3 class="tool-strip-title" data-i18n="tools-title">Programma’s &amp; frameworks</h3>
+      <ul class="tool-list" aria-label="Programma’s en frameworks" data-i18n-aria="tools-label">
+        <li class="tool-item"><span class="tool-mark tool-html" aria-hidden="true"><svg viewBox="0 0 32 36"><path d="M4 2h24l-2.2 27L16 34 6.2 29z" fill="currentColor"/><path d="M10 9h13l-.3 4H14l.3 3h8.1l-.7 8-5.7 2-5.7-2-.4-4h4l.2 1.2 1.9.6 1.9-.6.2-2.2h-8z" fill="#fff"/></svg></span><span>HTML</span></li>
+        <li class="tool-item"><span class="tool-mark tool-css" aria-hidden="true"><svg viewBox="0 0 32 36"><path d="M4 2h24l-2.2 27L16 34 6.2 29z" fill="currentColor"/><path d="M10 9h13l-.3 4h-8l.3 3h7.4l-.7 8-5.7 2-5.7-2-.4-4h4l.2 1.2 1.9.6 1.9-.6.2-2.2h-8z" fill="#fff"/></svg></span><span>CSS</span></li>
+        <li class="tool-item"><span class="tool-mark tool-js" aria-hidden="true"><svg viewBox="0 0 36 36"><rect x="2" y="2" width="32" height="32" rx="2" fill="currentColor"/><path d="M16 10h4v12c0 4-2 6-6 6-2 0-4-.6-5-1.8l2.2-2.8c.7.7 1.5 1 2.4 1 1.5 0 2.4-.8 2.4-2.5zm8 12c1.2 1 2.5 1.5 4 1.5 1.1 0 1.7-.4 1.7-1.1 0-.8-.7-1.1-2.6-1.8-3-1-4.4-2.3-4.4-4.8 0-3 2.3-5 5.7-5 2.2 0 4 .6 5.4 1.8l-2.1 3c-.9-.8-2-1.2-3.2-1.2-1.1 0-1.7.4-1.7 1.1s.6 1 2.6 1.7c3.1 1.1 4.4 2.4 4.4 4.9 0 3.1-2.3 5-5.9 5-2.5 0-4.8-.8-6.2-2z" fill="#171516" transform="translate(-3 0)"/></svg></span><span>JavaScript</span></li>
+        <li class="tool-item"><span class="tool-mark tool-svelte" aria-hidden="true"><svg viewBox="0 0 32 32"><path fill="currentColor" d="M25.6 5.1C21.7.3 13.2.8 8 4.8 3.4 8.3 2.6 14 5.7 17.7c-3.4 4.2-3.2 9.1.2 12 4 3.4 10.8 2.8 16.1-1.3 4.3-3.3 5.4-8.7 2.6-12.3 3.4-4 3.7-7.4 1-11zM12 10.5c2.2-1.7 5.1-2 6.4-.6.5.6.6 1.3.2 2l-6.8 5c-.9.7-1.2 1.8-.7 2.7.7 1.2 2.4 1.4 3.8.4l4.4-3.2c.6 1.6-.1 3.4-1.8 4.8-2.2 1.7-5.1 2-6.4.6-.5-.6-.6-1.3-.2-2l6.8-5c.9-.7 1.2-1.8.7-2.7-.7-1.2-2.4-1.4-3.8-.4l-4.4 3.2c-.6-1.6.1-3.4 1.8-4.8z"/></svg></span><span>SvelteKit</span></li>
+        <li class="tool-item"><span class="tool-mark tool-astro" aria-hidden="true"><svg viewBox="0 0 32 32"><path fill="currentColor" d="M16 2 20 12l10 4-10 4-4 10-4-10-10-4 10-4z"/><circle cx="16" cy="16" r="3" fill="#fff"/></svg></span><span>Astro</span></li>
+        <li class="tool-item"><span class="tool-mark tool-react" aria-hidden="true"><svg viewBox="0 0 36 36"><g fill="none" stroke="currentColor" stroke-width="1.8"><ellipse cx="18" cy="18" rx="16" ry="6.3"/><ellipse cx="18" cy="18" rx="16" ry="6.3" transform="rotate(60 18 18)"/><ellipse cx="18" cy="18" rx="16" ry="6.3" transform="rotate(120 18 18)"/></g><circle cx="18" cy="18" r="2.7" fill="currentColor"/></svg></span><span>React</span></li>
+        <li class="tool-item"><span class="tool-mark tool-figma" aria-hidden="true"><svg viewBox="0 0 32 48"><path fill="#f24e1e" d="M8 2h8v14H8a7 7 0 0 1 0-14z"/><path fill="#ff7262" d="M16 2h8a7 7 0 0 1 0 14h-8z"/><path fill="#a259ff" d="M8 16h8v14H8a7 7 0 0 1 0-14z"/><circle cx="23" cy="23" r="7" fill="#1abcfe"/><path fill="#0acf83" d="M8 30h8v7a7 7 0 1 1-8-7z"/></svg></span><span>Figma</span></li>
+        <li class="tool-item"><span class="tool-mark tool-adobe" aria-hidden="true"><svg viewBox="0 0 36 36"><path fill="currentColor" d="M2 31 13 4h6L8 31zm13-8 7-19h2l10 27h-7l-4-12-4 12h-7z"/></svg></span><span>Adobe</span></li>
+      </ul>
+    </section>
+  </main>
+  <footer class="footer section-panel" id="contact">
+    <div class="contact-banner"><strong data-i18n="contact-banner">Laten we kennismaken!</strong><a href="mailto:zainablfz@gmail.com" id="email-address">zainablfz@gmail.com</a><button class="copy-button" type="button" aria-label="Kopieer e-mailadres" data-i18n="copy-label" data-i18n-aria="copy-aria" data-email="zainablfz@gmail.com">Kopieer</button><span class="sr-only" id="copy-status" aria-live="polite"></span></div>
+    <div class="footer-columns"><div><h2>Zainab el Faiz</h2><p data-i18n="footer-bio">Student Communication &amp; Multimedia Design met een achtergrond in frontend development en interesse in UX/UI. Ik kijk uit naar een stage waarin ik kan leren, samenwerken en bijdragen.</p></div><div><h2 data-i18n="footer-menu">Menu</h2><a href="#work" data-i18n="footer-projects">Projecten</a><a href="#skills" data-i18n="nav-about">Over mij</a><a href="#offers" data-i18n="nav-skills">Skills</a><a href="#contact" data-i18n="nav-contact">Contact</a></div><div><h2 data-i18n="footer-contact">Contact</h2><a href="tel:+31618247300">☎ &nbsp; 06 18247300</a><a href="mailto:zainablfz@gmail.com">✉ &nbsp; zainablfz@gmail.com</a><span data-i18n="location">⌖ &nbsp; Badhoevedorp</span></div></div>
+    <div class="legal"><span>Zainab el Faiz</span><span>©2026</span><span data-i18n="footer-study">Communication &amp; Multimedia Design</span></div>
+  </footer>
+  <dialog class="project-dialog" id="project-dialog" aria-labelledby="project-dialog-title" aria-describedby="project-dialog-description">
+    <div class="dialog-heading">
+      <p class="dialog-kicker" data-i18n="dialog-kicker">FDND project</p>
+      <form method="dialog"><button class="dialog-close" type="submit" aria-label="Sluiten" data-i18n-aria="dialog-close">×</button></form>
+    </div>
+    <h2 id="project-dialog-title"></h2>
+    <div class="dialog-cover"><img id="project-dialog-image" src="" alt=""></div>
+    <p class="dialog-description" id="project-dialog-description"></p>
+    <div class="dialog-gallery" id="project-dialog-gallery" hidden>
+      <img src="assets/research-school-stress.png" alt="User journey map en microinteraction-onderzoek rond schoolstress" data-i18n-alt="alt-research-sleep" loading="lazy">
+    </div>
+    <section class="dialog-section" aria-labelledby="dialog-method-title">
+      <h3 id="dialog-method-title" data-i18n="dialog-method">Van vraag naar ontwerp</h3>
+      <ol id="project-dialog-steps"></ol>
+    </section>
+    <section class="dialog-section" aria-labelledby="dialog-skills-title">
+      <h3 id="dialog-skills-title" data-i18n="dialog-skills">Gebruikte skills</h3>
+      <div class="tags dialog-tags" id="project-dialog-tags"></div>
+    </section>
+  </dialog>
+</body>
+</html>
